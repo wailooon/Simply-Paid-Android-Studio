@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/slide_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceHasOverlappingRendering="true"
+    android:theme="@style/AppTheme.NoActionBar">
+
+
+    <TextView
+        android:id="@+id/headingTextView"
+        android:layout_width="169dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="192dp"
+        android:text="HEADING"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="306dp"
+        android:layout_height="137dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="423dp"
+        android:text="Description"
+        android:textSize="24sp" />
+</RelativeLayout>
